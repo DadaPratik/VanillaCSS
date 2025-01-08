@@ -1,0 +1,14 @@
+a {
+    text-align: center;
+    color: white;
+    display:block;
+    background-color: red;
+    margin:16px;
+    padding: 25px 0 ;
+    font-weight: bold;
+}
+a:hover {
+    background-color: brown;
+    
+}
+

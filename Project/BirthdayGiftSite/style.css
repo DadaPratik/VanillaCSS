@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: #a2d2ff;
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    
+    width: 400px;
+    height: 400px;
+    margin:0 auto;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("gift-cover.png");
+    background-size: cover;
+}
+#gift-img-happy:hover {
+    background-image: url("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2pic3NwaGVhNGd6dzgzcm80cjBzZnFoeWJ1OGc0N3o5azg5c2pzbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YnBntKOgnUSBkV7bQH/giphy.webp");
+}
+#gift-img-look:hover {
+    background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXNhY2Y1Z25zcW83NGZlYjR4MGpmb2c2NXRiZTM0MjgwZ3R1MTUxaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wWqirevIlombK/200.webp");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExODNmZHdvb3ZkM21wZTdlYTkzdHExZHpoc3YwZWprd2R4dTZxcGx6MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oNKLBehxbnoqY/giphy.webp");
+}
+
+#gift-img-badass:hover {
+   background-image: url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExamV2bDRtYTQzaGp3YTJ3c3BxMTlhOTJ5ZHZjemN1MXQzZTJ2Nms2YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/vOsRhrnqdyFnPp2OrG/giphy.webp");
+}
+/* override the height from .gif-img class  */
+
+#gift-img-cheers{
+    height:200px ;
+}
+#gift-img-cheers:hover{
+    background-image: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXkxaTRqNGNzdjVsYmZ6NnpwazgzMTlybnNhbTl4d2NsM3huN2RsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lPcmrZjScHB5bQv2tA/giphy.webp");
+}
